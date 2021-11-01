@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.学号"
+            android:textSize="16dp"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.姓名"
+            android:textSize="16dp"
+            android:layout_below="@id/listet_1"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.学院"
+            android:textSize="16dp"
+            android:layout_below="@id/listet_2"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.班级"
+            android:textSize="16dp"
+            android:layout_below="@id/listet_3"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.手机号"
+            android:textSize="16dp"
+            android:layout_below="@id/listet_4"/>
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.目前所在地"
+            android:textSize="16dp"
+            android:layout_below="@id/listet_5"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.是否有以下相关症状"
+            android:textSize="16dp"
+            android:layout_below="@id/textView6"/>
+        <EditText
+            android:id="@+id/listet_1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#FFAD33"
+            android:inputType="number"
+            android:background="@drawable/btn_username"
+            android:paddingLeft="10dp"
+            android:drawablePadding="5dp"
+            android:maxLines="1"
+            android:layout_marginTop="50dp"/>
+        <EditText
+            android:id="@+id/listet_2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#FFAD33"
+
+            android:background="@drawable/btn_username"
+            android:paddingLeft="10dp"
+            android:drawablePadding="5dp"
+            android:maxLines="1"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/listet_1"/>
+        <EditText
+            android:id="@+id/listet_3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#FFAD33"
+
+            android:background="@drawable/btn_username"
+            android:paddingLeft="10dp"
+            android:drawablePadding="5dp"
+            android:maxLines="1"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/listet_2"/>
+        <EditText
+            android:id="@+id/listet_4"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#FFAD33"
+
+            android:background="@drawable/btn_username"
+            android:paddingLeft="10dp"
+            android:drawablePadding="5dp"
+            android:maxLines="1"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/listet_3"/>
+        <EditText
+            android:id="@+id/listet_5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#FFAD33"
+            android:inputType="number"
+            android:background="@drawable/btn_username"
+            android:paddingLeft="10dp"
+            android:drawablePadding="5dp"
+            android:maxLines="1"
+            android:layout_marginTop="50dp"
+            android:layout_below="@id/listet_4"/>
+        <CheckBox
+            android:id="@+id/cb7_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView7"
+            android:text="发热（>37.3'c）"
+            android:textSize="16sp"
+
+            />
+        <CheckBox
+            android:id="@+id/cb7_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView7"
+            android:text="乏力"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/cb7_11"
+
+
+            />
+        <CheckBox
+            android:id="@+id/cb7_13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView7"
+            android:text="干咳"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/cb7_12"
+
+
+            />
+        <CheckBox
+            android:id="@+id/cb7_21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="咳痰"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_11"
+            />
+        <CheckBox
+            android:id="@+id/cb7_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb7_11"
+            android:text="鼻塞"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/cb7_21"
+            />
+
+        <CheckBox
+            android:id="@+id/cb7_23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb7_11"
+            android:text="流涕"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/cb7_22"
+            />
+        <CheckBox
+            android:id="@+id/cb7_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cb7_11"
+            android:text="寒战"
+            android:textSize="16sp"
+            android:layout_toRightOf="@id/cb7_23"
+            />
+
+        <CheckBox
+            android:id="@+id/cb7_31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="气促"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_21"
+            />
+        <CheckBox
+            android:id="@+id/cb7_32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="呼吸困难"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_21"
+            android:layout_toRightOf="@id/cb7_31"
+            />
+        <CheckBox
+            android:id="@+id/cb7_33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="咽痛"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_21"
+            android:layout_toRightOf="@id/cb7_32"
+            />
+        <CheckBox
+            android:id="@+id/cb7_41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头痛"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_31"
+
+            />
+        <CheckBox
+            android:id="@+id/cb7_42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="肌肉酸痛"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_31"
+            android:layout_toRightOf="@id/cb7_41"
+            />
+        <CheckBox
+            android:id="@+id/cb7_43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关节酸痛"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_31"
+            android:layout_toRightOf="@id/cb7_42"
+            />
+        <CheckBox
+            android:id="@+id/cb7_51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="胸闷"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_41"
+
+            />
+        <CheckBox
+            android:id="@+id/cb7_52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="呕吐"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_41"
+            android:layout_toRightOf="@id/cb7_51"
+            />
+        <CheckBox
+            android:id="@+id/cb7_53"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="腹泻"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_41"
+            android:layout_toRightOf="@id/cb7_52"
+            />
+
+        <CheckBox
+            android:id="@+id/cb7_54"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_41"
+            android:layout_toRightOf="@id/cb7_53"
+            />
+        <CheckBox
+            android:id="@+id/cb7_61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无以上症状"
+            android:textSize="16sp"
+            android:layout_below="@id/cb7_51"
+
+            />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.是否被列为新型冠状病毒感染的肺炎患者"
+            android:textSize="16dp"
+            android:layout_below="@id/cb7_61"/>
+        <RadioButton
+            android:id="@+id/rb8_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="否"
+            android:layout_below="@id/textView8"
+            android:textSize="16dp"
+            />
+        <RadioButton
+            android:id="@+id/rb8_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="存在疑似"
+            android:layout_below="@id/textView8"
+            android:textSize="16dp"
+            android:layout_toRightOf="@id/rb8_1"
+            />
+        <RadioButton
+            android:id="@+id/rb8_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已确诊"
+            android:layout_below="@id/textView8"
+            android:textSize="16dp"
+            android:layout_toRightOf="@id/rb8_2"
+            />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.是否与新冠肺炎患者有过密切接触，正处于医学隔离中？"
+            android:textSize="16dp"
+            android:layout_below="@id/rb8_1"/>
+        <RadioButton
+            android:id="@+id/rb9_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是"
+            android:layout_below="@id/textView9"
+            android:textSize="16dp"
+            />
+        <RadioButton
+            android:id="@+id/rb9_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="否"
+            android:layout_below="@id/textView9"
+            android:textSize="16dp"
+            android:layout_toRightOf="@id/rb9_1"
+            />
+
+
+
+
+
+
+
+
+        
+
+
+
+    </RelativeLayout>>
+
+
+
+
+
+
+</ScrollView>
