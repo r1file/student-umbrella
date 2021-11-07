@@ -39,17 +39,17 @@
         android:drawablePadding="5dp"
         android:maxLines="1"
         android:drawableLeft="@drawable/passwordicon"/>
+
     <Button
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/et_2"
-        android:layout_marginTop="40dp"
         android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
         android:layout_marginRight="5dp"
+        android:background="@drawable/btn_username"
         android:text="登录"
         android:textColor="#FFFFFF"
-        android:textSize="20sp"
-        android:background="@drawable/btn_username"
-        />
+        android:textSize="20sp" />
 </RelativeLayout>
