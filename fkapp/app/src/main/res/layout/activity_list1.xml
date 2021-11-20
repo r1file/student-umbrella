@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:text="7.是否有以下相关症状"
             android:textSize="16dp"
-            android:layout_below="@id/textView6"/>
+            android:layout_below="@id/list_bt6"/>
         <EditText
             android:id="@+id/listet_1"
             android:layout_width="match_parent"
@@ -135,6 +135,13 @@
             android:maxLines="1"
             android:layout_marginTop="50dp"
             android:layout_below="@id/listet_4"/>
+        <Button
+            android:id="@+id/list_bt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="选择地址"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/textView6"/>
         <CheckBox
             android:id="@+id/cb7_11"
             android:layout_width="wrap_content"
