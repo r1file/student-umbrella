@@ -30,6 +30,23 @@
       android:layout_marginLeft="5dp"
       android:layout_marginRight="5dp"
       android:text="每日健康反馈表单界面"/>
+  <Button
+      android:id="@+id/btn_BtsReg"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btn_list1"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:text="返校登记界面"/>
+  <Button
+      android:id="@+id/btn_LsReg"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/btn_BtsReg"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:text="返离校登记界面"/>
+
 
 
 

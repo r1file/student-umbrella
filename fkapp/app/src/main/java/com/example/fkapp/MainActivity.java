@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button mBtnEditText;
     private Button mBtList1;
+    private Button mBtBts;
 
 
     @Override
@@ -39,9 +40,27 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        mBtBts= (Button) findViewById(R.id.btn_BtsReg);
+        mBtBts.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+                //跳转到返校登记填写界面
+                Intent intent = new Intent(MainActivity.this, BtsReg.class);
+                startActivity(intent);
+            }
+        });
 
+        Button mBtLts = (Button) findViewById(R.id.btn_LsReg);
+        mBtLts.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+                //跳转到返校登记填写界面
+                Intent intent = new Intent(MainActivity.this, LsReg.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

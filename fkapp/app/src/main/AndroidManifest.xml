@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fkapp">
         <activity
+            android:name=".LsReg"
+            android:exported="false" />
+        <activity
+            android:name=".BtsReg"
+            android:exported="false" />
+        <activity
             android:name=".List1"
             android:exported="false" />
         <activity
