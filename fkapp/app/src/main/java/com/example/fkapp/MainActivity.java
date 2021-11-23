@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //跳转到返校登记填写界面
-                Intent intent = new Intent(MainActivity.this, BtsReg.class);
+                Intent intent = new Intent(MainActivity.this,BtsReg.class);
                 startActivity(intent);
             }
         });

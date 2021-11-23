@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/layout/activity_edit_text.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/layout/activity_list1.xml" value="0.5" />
         <entry key="..\:/student-umbrella/fkapp/app/src/main/res/layout/activity_edit_text.xml" value="0.1671195652173913" />
@@ -18,7 +19,10 @@
         <entry key="..\:/student-umbrella/student-umbrella/fkapp/app/src/main/res/layout/et.xml" value="0.24947916666666667" />
         <entry key="app/src/main/res/layout/activity_edit_text.xml" value="0.21979166666666666" />
         <entry key="app/src/main/res/layout/activity_list1.xml" value="0.11217171716878341" />
+        <entry key="app/src/main/res/layout/activity_ls_reg.xml" value="0.21739130434782608" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18034188034188034" />
+        <entry key="app/src/main/res/layout/activity_show_croppered.xml" value="0.20989583333333334" />
+        <entry key="app/src/main/res/layout/activity_take_phote.xml" value="0.10207700101317123" />
       </map>
     </option>
   </component>

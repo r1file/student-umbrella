@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">220740679524-ban0i86aejdj3387356lrc1l5638oup3.apps.googleusercontent.com</string>
+    <string name="ga_trackingId" translatable="false">UA-108813768-1</string>
+    <string name="gcm_defaultSenderId" translatable="false">220740679524</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6NJet6K0HLOV1JZ7G5sN3ID79XWPVa9g</string>
+    <string name="google_app_id" translatable="false">1:220740679524:android:491dca6eb0989d5b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6NJet6K0HLOV1JZ7G5sN3ID79XWPVa9g</string>
+    <string name="project_id" translatable="false">androidocr-196803</string>
+</resources>
