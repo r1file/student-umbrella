@@ -21,6 +21,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.googlecode.tesseract.android.TessBaseAPI;
 import com.example.fkapp.utils.Utils;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 
 /**
  * 显示截图结果

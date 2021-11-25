@@ -11,6 +11,14 @@
         android:orientation="vertical">
 
 
+        <Button
+            android:id="@+id/btn_ocr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="-520dp"
+            android:text="OCR识别" />
 
         <TextView
             android:id="@+id/textView1"
@@ -135,13 +143,14 @@
             android:maxLines="1"
             android:layout_marginTop="50dp"
             android:layout_below="@id/listet_4"/>
+
         <Button
             android:id="@+id/list_bt6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="选择地址"
+            android:layout_below="@+id/textView6"
             android:layout_centerInParent="true"
-            android:layout_below="@+id/textView6"/>
+            android:text="选择地址" />
         <CheckBox
             android:id="@+id/cb7_11"
             android:layout_width="wrap_content"

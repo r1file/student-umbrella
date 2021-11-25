@@ -5,9 +5,7 @@ import android.app.Application;
 import com.google.android.gms.analytics.GoogleAnalytics;
 import com.google.android.gms.analytics.Tracker;
 
-/**
- * Created by wangt on 2018/3/2.
- */
+
 
 public class App extends Application {
     private static GoogleAnalytics sAnalytics;

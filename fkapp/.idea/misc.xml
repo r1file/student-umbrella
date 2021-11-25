@@ -17,8 +17,12 @@
         <entry key="..\:/student-umbrella/student-umbrella/fkapp/app/src/main/res/layout/activity_ls_reg.xml" value="0.24947916666666667" />
         <entry key="..\:/student-umbrella/student-umbrella/fkapp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/student-umbrella/student-umbrella/fkapp/app/src/main/res/layout/et.xml" value="0.24947916666666667" />
+        <entry key="app/src/main/res/drawable/btn_username.xml" value="0.2359375" />
+        <entry key="app/src/main/res/drawable/button_press.xml" value="0.2359375" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2359375" />
+        <entry key="app/src/main/res/layout/activity_bts_reg.xml" value="0.20471014492753623" />
         <entry key="app/src/main/res/layout/activity_edit_text.xml" value="0.21979166666666666" />
-        <entry key="app/src/main/res/layout/activity_list1.xml" value="0.11217171716878341" />
+        <entry key="app/src/main/res/layout/activity_list1.xml" value="0.376711024221805" />
         <entry key="app/src/main/res/layout/activity_ls_reg.xml" value="0.21739130434782608" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18034188034188034" />
         <entry key="app/src/main/res/layout/activity_show_croppered.xml" value="0.20989583333333334" />
