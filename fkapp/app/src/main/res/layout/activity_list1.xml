@@ -11,14 +11,7 @@
         android:orientation="vertical">
 
 
-        <Button
-            android:id="@+id/btn_ocr"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/textView6"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="-520dp"
-            android:text="OCR识别" />
+
 
         <TextView
             android:id="@+id/textView1"
@@ -70,34 +63,45 @@
             android:text="7.是否有以下相关症状"
             android:textSize="16dp"
             android:layout_below="@id/list_bt6"/>
+
+        <Button
+            android:id="@+id/btn_ocr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView6"
+            android:layout_alignRight="@id/listet_1"
+            android:layout_marginTop="-280dp"
+            android:text="OCR识别" />
+
         <TextView
             android:id="@+id/listet_1"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:textSize="16sp"
             android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
             android:layout_marginRight="5dp"
-            android:textColor="#FFAD33"
-            android:inputType="number"
             android:background="@drawable/et_normal"
-            android:paddingLeft="10dp"
             android:drawablePadding="5dp"
+            android:inputType="number"
             android:maxLines="1"
-            android:layout_marginTop="25dp"/>
+            android:paddingLeft="10dp"
+            android:textColor="#FFAD33"
+            android:textSize="16sp" />
+
         <EditText
             android:id="@+id/listet_2"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:textSize="16sp"
+            android:layout_below="@id/listet_1"
             android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
             android:layout_marginRight="5dp"
-            android:textColor="#FFAD33"
             android:background="@drawable/et_normal"
-            android:paddingLeft="10dp"
             android:drawablePadding="5dp"
             android:maxLines="1"
-            android:layout_marginTop="25dp"
-            android:layout_below="@id/listet_1"/>
+            android:paddingLeft="10dp"
+            android:textColor="#FFAD33"
+            android:textSize="16sp" />
         <EditText
             android:id="@+id/listet_3"
             android:layout_width="match_parent"
