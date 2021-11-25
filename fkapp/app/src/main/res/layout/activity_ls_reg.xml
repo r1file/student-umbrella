@@ -44,30 +44,62 @@
             android:layout_height="wrap_content"
             android:text="目的地是否是\“中高风险区所在城市\”"
             android:layout_below="@id/LsReg_et33"/>
-        <EditText
+        <Button
             android:id="@+id/LsReg_et1"
-            android:layout_width="match_parent"
+            android:text="选择日期"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:background="@drawable/et_normal"
             android:layout_below="@id/LsReg_tv1"/>
         <EditText
             android:id="@+id/LsReg_et2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:background="@drawable/et_normal"
             android:layout_below="@+id/LsReg_tv2"/>
         <EditText
             android:id="@+id/LsReg_et31"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:background="@drawable/et_normal"
             android:layout_below="@+id/LsReg_tv31"/>
         <EditText
             android:id="@+id/LsReg_et32"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:background="@drawable/et_normal"
             android:layout_below="@+id/LsReg_tv32"/>
         <EditText
             android:id="@+id/LsReg_et33"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:maxLines="1"
+            android:background="@drawable/et_normal"
             android:layout_below="@+id/LsReg_tv33"/>
         <RadioGroup
             android:id="@+id/LsReg_rg"
@@ -87,6 +119,23 @@
                 android:text="否"
                 />
         </RadioGroup>
+        <Button
+            android:id="@+id/LsReg_btnsub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/LsReg_rg"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:text="提交"
+            />
+        <ImageButton
+            android:layout_toRightOf="@+id/LsReg_et1"
+            android:layout_below="@+id/LsReg_tv1"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:id="@+id/showdialog"
+            android:background="@drawable/ic_baseline_calendar_today_24"/>
 
 
     </RelativeLayout>
