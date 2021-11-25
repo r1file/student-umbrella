@@ -17,7 +17,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="1.学号"
-            android:textSize="16dp"/>
+            android:textSize="16dp"
+            />
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
@@ -61,87 +62,86 @@
             android:text="7.是否有以下相关症状"
             android:textSize="16dp"
             android:layout_below="@id/list_bt6"/>
-        <EditText
+        <TextView
             android:id="@+id/listet_1"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:textSize="16sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:textColor="#FFAD33"
             android:inputType="number"
-            android:background="@drawable/btn_username"
+            android:background="@drawable/et_normal"
             android:paddingLeft="10dp"
             android:drawablePadding="5dp"
             android:maxLines="1"
-            android:layout_marginTop="50dp"/>
+            android:layout_marginTop="25dp"/>
         <EditText
             android:id="@+id/listet_2"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:textSize="16sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:textColor="#FFAD33"
-
-            android:background="@drawable/btn_username"
+            android:background="@drawable/et_normal"
             android:paddingLeft="10dp"
             android:drawablePadding="5dp"
             android:maxLines="1"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="25dp"
             android:layout_below="@id/listet_1"/>
         <EditText
             android:id="@+id/listet_3"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:textSize="16sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:textColor="#FFAD33"
 
-            android:background="@drawable/btn_username"
+            android:background="@drawable/et_normal"
             android:paddingLeft="10dp"
             android:drawablePadding="5dp"
             android:maxLines="1"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="25dp"
             android:layout_below="@id/listet_2"/>
         <EditText
             android:id="@+id/listet_4"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:textSize="16sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:textColor="#FFAD33"
-
-            android:background="@drawable/btn_username"
+            android:background="@drawable/et_normal"
             android:paddingLeft="10dp"
             android:drawablePadding="5dp"
             android:maxLines="1"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="25dp"
             android:layout_below="@id/listet_3"/>
         <EditText
             android:id="@+id/listet_5"
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="30dp"
             android:textSize="16sp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:textColor="#FFAD33"
             android:inputType="number"
-            android:background="@drawable/btn_username"
+            android:background="@drawable/et_normal"
             android:paddingLeft="10dp"
             android:drawablePadding="5dp"
             android:maxLines="1"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="25dp"
             android:layout_below="@id/listet_4"/>
+
         <Button
             android:id="@+id/list_bt6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="选择地址"
+            android:layout_below="@+id/textView6"
             android:layout_centerInParent="true"
-            android:layout_below="@+id/textView6"/>
+            android:text="选择地址" />
         <CheckBox
             android:id="@+id/cb7_11"
             android:layout_width="wrap_content"
@@ -318,55 +318,79 @@
             android:text="8.是否被列为新型冠状病毒感染的肺炎患者"
             android:textSize="16dp"
             android:layout_below="@id/cb7_61"/>
-        <RadioButton
-            android:id="@+id/rb8_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="否"
-            android:layout_below="@id/textView8"
-            android:textSize="16dp"
-            />
-        <RadioButton
-            android:id="@+id/rb8_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="存在疑似"
-            android:layout_below="@id/textView8"
-            android:textSize="16dp"
-            android:layout_toRightOf="@id/rb8_1"
-            />
-        <RadioButton
-            android:id="@+id/rb8_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="已确诊"
-            android:layout_below="@id/textView8"
-            android:textSize="16dp"
-            android:layout_toRightOf="@id/rb8_2"
-            />
+        <RadioGroup
+            android:id="@+id/List1_rg1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView8">
+            <RadioButton
+                android:id="@+id/rb8_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="否"
+
+                android:textSize="16dp"
+                />
+            <RadioButton
+                android:id="@+id/rb8_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="存在疑似"
+                android:layout_below="@id/textView8"
+                android:textSize="16dp"
+                android:layout_toRightOf="@id/rb8_1"
+                />
+            <RadioButton
+                android:id="@+id/rb8_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="已确诊"
+                android:layout_below="@id/textView8"
+                android:textSize="16dp"
+                android:layout_toRightOf="@id/rb8_2"
+                />
+        </RadioGroup>
+
         <TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="9.是否与新冠肺炎患者有过密切接触，正处于医学隔离中？"
             android:textSize="16dp"
-            android:layout_below="@id/rb8_1"/>
-        <RadioButton
-            android:id="@+id/rb9_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="是"
-            android:layout_below="@id/textView9"
-            android:textSize="16dp"
+            android:layout_below="@id/List1_rg1"/>
+        <RadioGroup
+            android:id="@+id/list1_rg2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/textView9">
+            <RadioButton
+                android:id="@+id/rb9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是"
+
+                android:textSize="16dp"
+                />
+            <RadioButton
+                android:id="@+id/rb9_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="否"
+                android:layout_below="@id/textView9"
+                android:textSize="16dp"
+                android:layout_toRightOf="@id/rb9_1"
+                />
+        </RadioGroup>
+        <Button
+            android:id="@+id/list1_btnsub"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/list1_rg2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:text="提交"
             />
-        <RadioButton
-            android:id="@+id/rb9_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="否"
-            android:layout_below="@id/textView9"
-            android:textSize="16dp"
-            android:layout_toRightOf="@id/rb9_1"
-            />
+
     </RelativeLayout>>
 </ScrollView>
