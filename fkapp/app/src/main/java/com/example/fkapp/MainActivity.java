@@ -31,7 +31,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
-import com.mysql.jdbc.Statement;
+
 
 import org.xutils.common.Callback;
 import org.xutils.common.util.LogUtil;
@@ -85,63 +85,6 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
     }
-       /* mBtnEditText=(Button)findViewById(R.id.btn_exittext);
-        Button mBtnEditText = (Button) findViewById(R.id.btn_exittext);
-        mBtnEditText.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-            //跳转到登陆界面
-                Intent intent=new Intent(MainActivity.this, EditTextActivity.class);
-                startActivity(intent);
-            }
-        });
-        Button mBtList1 = (Button) findViewById(R.id.btn_list1);
-        mBtList1.setOnClickListener(new View.OnClickListener(){
-
-            @Override
-            public void onClick(View v){
-                //跳转到每日健康反馈表单填写界面
-                Intent intent=new Intent(MainActivity.this, List1.class);
-                startActivity(intent);
-            }
-        });
-        Button mBtBts = (Button) findViewById(R.id.btn_BtsReg);
-        mBtBts.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                //跳转到返校登记填写界面
-                Intent intent = new Intent(MainActivity.this,BtsReg.class);
-                startActivity(intent);
-            }
-        });
-
-        Button mBtLts = (Button) findViewById(R.id.btn_LsReg);
-        mBtLts.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                //跳转到返校登记填写界面
-                Intent intent = new Intent(MainActivity.this, LsReg.class);
-                startActivity(intent);
-            }
-        });*/
-
-
-        mBtsql = (Button) findViewById(R.id.btn_mysql);
-        mBtsql.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                //跳转到返校登记填写界面
-                Intent intent = new Intent(MainActivity.this,MysqlTest.class);
-                startActivity(intent);
-            }
-        });
-
-
-
-
-    }
 
 }
+

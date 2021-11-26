@@ -19,6 +19,8 @@ import com.example.fkapp.BtsReg;
 import com.example.fkapp.EditTextActivity;
 import com.example.fkapp.List1;
 import com.example.fkapp.LsReg;
+import com.example.fkapp.MainActivity;
+import com.example.fkapp.MysqlTest;
 import com.example.fkapp.R;
 
 public class NotificationsFragment extends Fragment {
@@ -28,6 +30,7 @@ public class NotificationsFragment extends Fragment {
     private Button mBtList1;
     private Button mBtBts;
     private Button mBtLts;
+    private Button mBtsql;
     private View contentView;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
@@ -80,6 +83,16 @@ public class NotificationsFragment extends Fragment {
                 //跳转到返校登记填写界面
                 Intent intent3 = new Intent(getActivity(), LsReg.class);
                 startActivity(intent3);
+            }
+        });
+        mBtsql = (Button)root.findViewById(R.id.btn_mysql);
+        mBtsql.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                //跳转到返校登记填写界面
+                Intent intent = new Intent(getActivity(), MysqlTest.class);
+                startActivity(intent);
             }
         });
 

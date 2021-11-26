@@ -8,20 +8,11 @@
         <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/layout/activity_list1.xml" value="0.5" />
         <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/layout/activity_main1.xml" value="0.2672239108409321" />
+        <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/layout/activity_take_phote.xml" value="0.33125" />
+        <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/layout/fragment_china.xml" value="0.33125" />
+        <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/layout/fragment_notifications.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/layout/mysql.xml" value="0.5" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/drawable/btn_username.xml" value="0.1398148148148148" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/layout/activity_bts_reg.xml" value="0.1" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/layout/activity_list1.xml" value="0.1" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/layout/activity_ls_reg.xml" value="0.1" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/layout/fragment_china.xml" value="0.4" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/layout/fragment_notifications.xml" value="0.136" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/layout/fragment_notifictions.xml" value="0.15760869565217392" />
-        <entry key="..\:/Users/wpq/Desktop/final/student-umbrella/fkapp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.264" />
+        <entry key="..\:/Users/pzp/Desktop/student-umbrella/fkapp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.31614583333333335" />
         <entry key="..\:/student-umbrella/fkapp/app/src/main/res/layout/activity_edit_text.xml" value="0.1671195652173913" />
         <entry key="..\:/student-umbrella/fkapp/app/src/main/res/layout/activity_list1.xml" value="0.1671195652173913" />
         <entry key="..\:/student-umbrella/student-umbrella/fkapp/app/src/main/res/drawable/btn_tpicker.xml" value="0.265625" />
