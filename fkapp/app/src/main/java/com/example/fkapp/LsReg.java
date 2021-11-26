@@ -26,7 +26,7 @@ public class LsReg extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ls_reg);
-        showdialog = (Button) findViewById(R.id.LsReg_et1);
+        showdialog = findViewById(R.id.LsReg_et1);
         //textdialog = (Button) findViewById(R.id.);
         calendar = Calendar.getInstance();
         showdialog.setOnClickListener(new View.OnClickListener() {
@@ -40,7 +40,7 @@ public class LsReg extends AppCompatActivity {
                     @Override
                     public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
                         //monthOfYear 得到的月份会减1所以我们要加1
-                        String time = String.valueOf(year) + "年" + String.valueOf(monthOfYear + 1) + "月" + Integer.toString(dayOfMonth)+"日";
+                        String time = year + "年" + (monthOfYear + 1) + "月" + dayOfMonth +"日";
                         showdialog.setText(time);
                         //Log.d("测试", time);
                     }

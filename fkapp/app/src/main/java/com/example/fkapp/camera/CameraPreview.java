@@ -44,12 +44,12 @@ public class CameraPreview extends SurfaceView implements SurfaceHolder.Callback
      */
     private OnCameraStatusListener listener;
 
-    private SurfaceHolder holder;
+    private final SurfaceHolder holder;
     private Camera camera;
     private FocusView mFocusView;
 
     //创建一个PictureCallback对象，并实现其中的onPictureTaken方法
-    private Camera.PictureCallback pictureCallback = new Camera.PictureCallback() {
+    private final Camera.PictureCallback pictureCallback = new Camera.PictureCallback() {
 
         // 该方法用于处理拍摄后的照片数据
         @Override

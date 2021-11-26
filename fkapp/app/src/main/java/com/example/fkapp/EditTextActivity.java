@@ -17,7 +17,7 @@ public class EditTextActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_text);
-        mBtnLogin=(Button) findViewById(R.id.btn_login);
+        mBtnLogin= findViewById(R.id.btn_login);
         mBtnLogin.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

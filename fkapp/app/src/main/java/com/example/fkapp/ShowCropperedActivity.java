@@ -49,8 +49,8 @@ public class ShowCropperedActivity extends AppCompatActivity {
     private Uri    uri;
     private String result;
 
-    private TessBaseAPI    baseApi = new TessBaseAPI();
-    private Handler        handler = new Handler();
+    private final TessBaseAPI    baseApi = new TessBaseAPI();
+    private final Handler        handler = new Handler();
     private ProgressDialog dialog;
 
     private ColorMatrix colorMatrix;
@@ -197,7 +197,7 @@ public class ShowCropperedActivity extends AppCompatActivity {
     /**
      * 识别线程
      */
-    private Runnable runnable = new Runnable() {
+    private final Runnable runnable = new Runnable() {
         @Override
         public void run() {
             final Bitmap bitmap_1 = convertGray(getBitmapFromUri(uri));

@@ -18,7 +18,7 @@ import android.view.animation.LinearInterpolator;
 
 public class FocusView extends View {
     private Paint mLinePaint;
-    private int mBorderWidth = 4;
+    private final int mBorderWidth = 4;
 
     public FocusView(Context context) {
         super(context);
