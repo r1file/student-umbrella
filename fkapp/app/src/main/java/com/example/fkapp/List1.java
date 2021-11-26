@@ -21,14 +21,14 @@ public class List1 extends AppCompatActivity {
 
     private TextView mTvAddress;
     private ArrayList<JsonBean> options1Items = new ArrayList<>(); //省
-    private ArrayList<ArrayList<String>> options2Items = new ArrayList<>();//市
-    private ArrayList<ArrayList<ArrayList<String>>> options3Items = new ArrayList<>();//区
+    private final ArrayList<ArrayList<String>> options2Items = new ArrayList<>();//市
+    private final ArrayList<ArrayList<ArrayList<String>>> options3Items = new ArrayList<>();//区
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list1);
-        mTvAddress = (TextView) findViewById(R.id.list_bt6);
+        mTvAddress = findViewById(R.id.list_bt6);
         initJsonData();
         mTvAddress.setOnClickListener(new View.OnClickListener() {
             @Override

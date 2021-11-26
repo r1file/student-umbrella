@@ -177,7 +177,7 @@ public class TakePhoteActivity extends AppCompatActivity implements CameraPrevie
     /**
      * 拍照界面
      */
-    private View.OnClickListener onClickListener = new View.OnClickListener() {
+    private final View.OnClickListener onClickListener = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
             switch (view.getId()) {
@@ -205,7 +205,7 @@ public class TakePhoteActivity extends AppCompatActivity implements CameraPrevie
     /**
      * 截图界面
      */
-    private View.OnClickListener cropcper = new View.OnClickListener() {
+    private final View.OnClickListener cropcper = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
             switch (view.getId()) {
