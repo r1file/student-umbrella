@@ -24,6 +24,9 @@
             android:name=".LsReg"
             android:exported="false" />
         <activity
+            android:name=".MysqlTest"
+            android:exported="false" />
+        <activity
             android:name=".BtsReg"
             android:exported="false" />
         <activity

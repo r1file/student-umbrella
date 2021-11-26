@@ -7,4 +7,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "fkapp"
-include ':app'
+include ':app','xutils'
