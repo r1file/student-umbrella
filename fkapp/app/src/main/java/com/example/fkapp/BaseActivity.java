@@ -7,10 +7,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.analytics.Tracker;
 
-/**
- * Created by wangt on 2018/3/2.
- */
-
 public class BaseActivity extends AppCompatActivity {
 
     private Tracker mTracker;
